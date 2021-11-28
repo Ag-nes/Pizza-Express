@@ -94,26 +94,26 @@ nav>ul>li>a:hover{
     font-size: 20px;
 }
 
-.offer1{
+.aggy1{
     margin-top:50px;
     margin-bottom:  50px;
 }
 
-#o-content img{
+#pizza img{
     width:100%;
     height:auto;
     padding: 0px;
 }
 
-.offer2{
+.aggy2{
     display: flex;
 }
 
-#o-content p{
+#pizza p{
     padding: 10px;
 }
 
-#o-content{
+#pizza{
     border: 1px solid white;
     box-shadow: 2px 2px 5px  grey;
     margin-left: 20px;
