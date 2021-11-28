@@ -11,7 +11,7 @@ https://ag-nes.github.io/Pizza-Express/
 
 ## Installation
   * Open terminal
-  * git clone
+  * git clone *git@github.com:Ag-nes/Pizza-Express.git*
   * cd Pizza-Express
   * code . or atom .
 
