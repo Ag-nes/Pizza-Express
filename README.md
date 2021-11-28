@@ -9,7 +9,6 @@ This is a web application for Pizza Express showing details about the different 
 ## Live link
 https://ag-nes.github.io/Pizza-Express/
 
-
 ## Installation
   * Open terminal
   * git clone

@@ -45,7 +45,10 @@ var toppingPrice;
     prefer1 = $(".prefer").find(":selected").val();
     size1 = $(".siz").find(":selected").val();
     crust1 =$(".crus").find(":selected").val();
-    console.log(size1);
+    // console.log(size1);
+    alert(
+        size1
+    )
     topping1=[];
     $.each($("input[name='top']:checked"), function(){            
         topping1.push($(this).val());

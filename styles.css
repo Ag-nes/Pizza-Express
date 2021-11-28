@@ -24,10 +24,10 @@ nav{
     
 }
 
-img{
+ img{
     width:100%;
     height:auto;
-}
+} 
 
 nav>ul>li{
     display: inline-block;
@@ -99,26 +99,26 @@ nav>ul>li>a:hover{
     margin-bottom:  50px;
 }
 
-#pizza img{
+/* #pizza img{
     width:100%;
     height:auto;
     padding: 0px;
-}
+} */
 
-.aggy2{
+/* .aggy2{
     display: flex;
-}
+} */
 
 #pizza p{
     padding: 10px;
 }
 
-#pizza{
+/* #pizza{
     border: 1px solid white;
     box-shadow: 2px 2px 5px  grey;
     margin-left: 20px;
     border-radius: 3px;
- }
+ } */
 
 
  #order2{
@@ -259,5 +259,12 @@ nav>ul>li>a:hover{
   }
   .footer{
     padding-top: 5%;
+
+}
+.col-md-2>img{
+    width: 250px;
+    height: 250px;
+    margin-left: 40px;
+    padding: 30px;
 
 }
