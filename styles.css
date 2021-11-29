@@ -1,11 +1,12 @@
 .image{
     background-image: url("images/background.jpg");
-    background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
-    min-height:700px;
+    background-repeat: no-repeat;
     max-width:100%;  
+    min-height:700px;
+    
 }
 body{
     font-family: 'Handlee', sans-serif;
@@ -24,10 +25,10 @@ nav{
     
 }
 
-img{
+ img{
     width:100%;
     height:auto;
-}
+} 
 
 nav>ul>li{
     display: inline-block;
@@ -66,10 +67,15 @@ nav>ul>li>a:hover{
 
 .main h1{
     font-size: 4em;
+    font-weight: bolder;
 }
 
 .main p{
     font-size: 30px;
+    font-weight: bold;
+}
+.about{
+    background-color: black;
 }
 
 .about img{
@@ -99,37 +105,17 @@ nav>ul>li>a:hover{
     margin-bottom:  50px;
 }
 
-#pizza img{
-    width:100%;
-    height:auto;
-    padding: 0px;
-}
-
-.aggy2{
-    display: flex;
-}
-
-#pizza p{
-    padding: 10px;
-}
-
-#pizza{
-    border: 1px solid white;
-    box-shadow: 2px 2px 5px  grey;
-    margin-left: 20px;
-    border-radius: 3px;
- }
-
 
  #order2{
      background-image: url("images/MargheritaPizza.jpg");
+     background-size:cover;
      background-attachment: fixed;
      background-position: center center;
      background-repeat: no-repeat;
-     background-size:cover;
+     margin-top: 100px;
      width: 100%;
      height:100vh;
-     margin-top: 100px;
+     
  }
 
  .order3{
@@ -142,32 +128,30 @@ nav>ul>li>a:hover{
      height:550px;
      padding:20px;
 }
+.custom-select{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 20%;
+    
+}
 
- .custom-select{
+ /* .custom-select{
      width:40%;
      margin-bottom: 20px;
      display: flex;
      flex-direction: column;
- }
+ } */
 
- .contacts{
-     background-color:black;
-     width:100%;
-     height:400px; 
-     color:white;
-     padding: 20px;
-     
- }
 
- #showOrder{
+ /* #showOrder{
     background-color: transparent;
     text-align: center;
     width: 100%;
     padding: 20px;
     border-radius: 12px;
     border: 5px solid;
-     /* display:none; */
- }
+    
+ } */
  .order-total{
     display: none;
 }
@@ -192,7 +176,6 @@ nav>ul>li>a:hover{
  }
 
  .showPrice{
-     /* display: none; */
      font-size: 20px;
      font-weight: bold;
      padding:20px;
@@ -203,6 +186,9 @@ nav>ul>li>a:hover{
      font-weight: bold;
      margin-top: 20px;
  }
+ #ttl ,#total{
+    font-size: 40px;
+}
 
 
 @media screen and (max-width:480px){
@@ -252,12 +238,24 @@ nav>ul>li>a:hover{
   }
   #contact{
     color: black;
-    background-color: sienna;
+    background-color:black;
+    width:100%;
+    height:300px; 
+    color:white;
+    padding: 20px;
+
   }
   #contactdetails h2{
     text-align: left;
   }
   .footer{
-    padding-top: 5%;
+    padding-top: 3%;
+
+}
+.col-md-2>img{
+    width: 250px;
+    height: 250px;
+    margin-left: 40px;
+    padding: 30px;
 
 }

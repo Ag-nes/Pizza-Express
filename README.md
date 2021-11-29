@@ -7,10 +7,11 @@ Agnes Okutoyi
 This is a web application for Pizza Express showing details about the different types of pizza they sell, and allows users or customers to order online as they deliver.
 
 ## Live link
+https://ag-nes.github.io/Pizza-Express/
 
 ## Installation
   * Open terminal
-  * git clone
+  * git clone *git@github.com:Ag-nes/Pizza-Express.git*
   * cd Pizza-Express
   * code . or atom .
 
