@@ -186,9 +186,9 @@ nav>ul>li>a:hover{
      font-weight: bold;
      margin-top: 20px;
  }
- #ttl ,#total{
+  #ttl ,#total{
     font-size: 40px;
-}
+} 
 
 
 @media screen and (max-width:480px){
