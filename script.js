@@ -5,40 +5,45 @@ function Pizza(name, size, topping, crust, total){
     this.crust=crust;
     this.total=total;
   }
-var prefer1, size1, topping1, crust1;
-var pricing=0;
-var crustPrice = 0;
-var total=0;
-var toppingPrice;
+  Pizza.prototype.fullOrder= function() {
+         return this.name + " " + this.size + " " + this.topping + " " + this.crust + " " + this.total;
+       }
+       console.log(fullOrder());
+      
+// var prefer1, size1, topping1, crust1;
+// var pricing=0;
+// var crustPrice = 0;
+// var total=0;
+// var toppingPrice;
   
-  switch(size1){
-    case "large":
-      pricing = 900;
-    break;
-    case "medium":
-      pricing = 650;
-    break;
-    case "small":
-      pricing = 400;
+//   switch(size1){
+//     case "large":
+//       pricing = 900;
+//     break;
+//     case "medium":
+//       pricing = 650;
+//     break;
+//     case "small":
+//       pricing = 400;
 
-    break;
-    default:
-      console.log("error"); 
-  }
-  switch(crust1){
-    case "glutten-free":
-      crustPrice = 150;
-    break;
-    case "crispy":
-      crustPrice = 90;
+//     break;
+//     default:
+//       console.log("error"); 
+//   }
+//   switch(crust1){
+//     case "glutten-free":
+//       crustPrice = 150;
+//     break;
+//     case "crispy":
+//       crustPrice = 90;
 
-    break;
-    case "stuffed":
-      crustPrice = 70;
-    break;
-    default:
-      console.log("Invalid"); 
-  }
+//     break;
+//     case "stuffed":
+//       crustPrice = 70;
+//     break;
+//     default:
+//       console.log("Invalid"); 
+//   }
 //   $("form").submit(function(){
 //     event.preventDefault();
 //     var pizza1 = function add(size1,crust1,topping1){
