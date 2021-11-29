@@ -11,31 +11,33 @@
   </head>
 
   <body class="container-fluid">
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#ord">Order</a></li>
-        <li><a href="#us">Contacts</a></li>
-      </ul>
-    </nav>
+     <nav>
+       <ul>
+         <li><a href="#about">About</a></li>
+         <li><a href="#ord">Order</a></li>
+         <li><a href="#us">Contacts</a></li>
+       </ul>
+     </nav>
 
-    <div class="image container-fluid" id="home">
-      <div class="main text-center">
-        <h1>Pizza Express</h1>
-        <p>If you're in doubt,eat Pizza!!!</p>
-      </div>
-    </div>
-    <h1 class="about1 text-center" id="about">About Us</h1>
-    <div class="about text-center">
-      <img src="images/about.jpg"alt=""/>
-      <p class="para1">
+     <div class="image container-fluid" id="home">
+       <div class="main text-center">
+         <h1>Pizza Express</h1>
+         <p>If you're in doubt,eat Pizza!!!</p>
+        </div>
+     </div>
+     <div id="about">
+     <h1 class="about1 text-center" id="about">About Us</h1>
+     <div class="about text-center">
+       <img src="images/about.jpg"alt=""/>
+       <p class="para1">
         Pizza Express is among the leading best Pizza places according to research.At Express we majorly take caution of our customer's health followed by the sweetness of every pizza we make
         We are located in atleast three major cities: Nairobi,Nakuru and Kisumu.
         Pizza Express is the place to be, Order with Express today!!
-      </p>
+       </p>
+       </div>
     </div>
 
-    <h1 class="aggy1 text-center" id="services">Our Pizza Varieties</h1>
+    <h1 class="aggy1 text-center" id="pizza">Our Pizza Varieties</h1>
     <div class="container-fluid">
       <div class="row">
           <div class="col-md-2">
@@ -99,11 +101,16 @@
           <div class="checkout">
             <table id="table">
                 <tr>
-                  <th>Size</th>
+                    <th scope="col">Type</th>
+                    <th scope="col">Size</th>
+                    <th scope="col">Crust</th>
+                    <th scope="col">Toppings</th>
+                    <th scope="col">Total</th>
+                  <!-- <th>Size</th>
                   <th>Type</th>
                   <th>Crust</th>
                   <th>Toppings</th>
-                  <th>price</th>
+                  <th>price</th> -->
                 </tr>
                 
               </table>
@@ -113,59 +120,27 @@
         <p id="h">Home delivery?</p>
         <p id="h">Pick-up?</p>
         <p id="h"> Deliveries are not free, it will cost an extra fee of ksh.150</p>
-        <input type="text" id="names" placeholder="Enter your Name" value="Example...">
-        <input type="text" id="address" placeholder="Enter your Location" value="eg.Thika"><br/>
+        <input type="text" id="names" placeholder="Enter your Name" value="">
+        <input type="text" id="address" placeholder="Enter your Location" value=""><br/>
         <button id="deliver-btn" class="btn btn-warning">Submit</button>
         
             
-          <!-- <p class="showPrice"></p>
-          <div id="deliver">
-            <p>Delivery fee is Ksh.150</p>
-            Your Location:
-            <input type="text" name="location" class="locate" value="" /><br />
-            <button type="submit" id="check" class="btn btn-success">
-              Checkout
-            </button>
-            <p id="totalDelivery"></p>
-            <p id="message"></p>
-          </div> -->
+
         </form>
       </div>
     </div> 
     </div>
-    <!-- <div id="total"></div>
-    <div id="showOrder">
-      <h2>Your Order</h2>
-      <table>
-        <thead>
-          <tr>
-            <th scope="col">Pizza name</th>
-            <th scope="col">Size</th>
-            <th scope="col">Crust</th>
-            <th scope="col">Topping</th>
-            <th scope="col">Total</th>
-          </tr>
-        </thead>
-        <tbody class="current-order">
-            <tr>
-                <td id="name"></td>
-                <td id="size"></td>
-                <td id="crust"></td>
-                <td id="toppings"></td>
-                <td id="total"></td>
-            </tr>
-        </tbody>
-      </table> -->
-    <!-- </div> -->
+    
+
 
     <div class="container-fluid bg-default" id="contact">
         <div class="controls-top "> 
             <h2>Contact Us</h2>
           </div>
         <div class="row" id="contactdetails">
-          <div class="col-md-1">
+          <!-- <div class="col-md-1">
              
-          </div>
+          </div> -->
           <div class="col-md-3 text-justify">
             <h2>Location</h2>
             <p>Pizza Express</p>
@@ -186,10 +161,7 @@
         </div>
     </div>
 
-
-
-    </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.js"integrity="sha384-mlceH9HlqLp7GMKHrj5Ara1+LvdTZVMx4S1U43/NxCvAkzIo8WJ0FE7duLel3wVo"crossorigin="anonymous"></script>
-    <script src="scripts.js"></script>
-  </body>
-  </html>
+     <script src="https://code.jquery.com/jquery-3.4.1.js"integrity="sha384-mlceH9HlqLp7GMKHrj5Ara1+LvdTZVMx4S1U43/NxCvAkzIo8WJ0FE7duLel3wVo"crossorigin="anonymous"></script>
+     <script src="scripts.js"></script>
+   </body>
+</html>
