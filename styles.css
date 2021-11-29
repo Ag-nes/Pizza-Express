@@ -163,12 +163,13 @@ nav>ul>li>a:hover{
     margin-right: 10px;
  }
 
- #deliver{
+ /* #submit{
      display: none;
      position:relative;
      left: 600px;
      top:-400px;
- }
+     
+ } */
 
  #check{
      margin-top: 20px;
@@ -257,4 +258,13 @@ nav>ul>li>a:hover{
     margin-left: 40px;
     padding: 30px;
 
+}
+#check-btn{
+    background-color: sienna;
+}
+#submit-btn{
+    background-color: sienna;
+}
+#ord{
+    text-align: center;
 }

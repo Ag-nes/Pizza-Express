@@ -5,8 +5,15 @@ function Pizza(name, size, topping, crust, total){
     this.crust=crust;
     this.total=total;
   }
-  Pizza.prototype.fullOrder= function() {
-         return this.name + " " + this.size + " " + this.topping + " " + this.crust + " " + this.total;
-       }
-       console.log(fullOrder());
+  $(document).ready(function () {
+    $("#check-btn").click(function () {
+        alert ("Hello, thanks for ordering with us")
+    });
+});
+//   Pizza.prototype.fullOrder= function() {
+//          return this.name + " " + this.size + " " + this.topping + " " + this.crust + " " + this.total;
+//        }
+//        console.log(fullOrder());
       
+
+    
